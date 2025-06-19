@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Admin Panel</h1>
+
+  <label for="city">Select City:</label>
+  <select id="city">
+    <option value="Mumbai">Bangalore</option>
+    <option value="Kochi">Kochi</option>
+    <option value="Bangalore">Pune</option>
+  </select>
+
+  <div class="section">
+    <input type="checkbox" id="section3-enable">
+    <label for="section3-enable"><strong>Enable Section 3</strong></label>
+    <div id="section3-options" class="options hidden">
+      <label><input type="radio" name="section3" value="Rainy"> Moderately Heavy</label>
+      <label><input type="radio" name="section3" value="Cloudy"> Average</label>
+      <label><input type="radio" name="section3" value="Sunny"> No Rain</label>
+      <label><input type="radio" name="section3" value="Floody"> Extremely Heavy</label>
+    </div>
+  </div>
+
+  <button id="submit-btn">Submit</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
