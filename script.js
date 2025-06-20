@@ -44,7 +44,7 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   }
 
   // Simulated backend call (replace with actual API endpoint)
-  fetch("http://127.0.0.1:5000/update", {
+  fetch("http://ceat-admin-backend.onrender.com/update", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
